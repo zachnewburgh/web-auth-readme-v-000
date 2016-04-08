@@ -38,4 +38,7 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+  ENV['FOURSQUARE_CLIENT_ID'] = 'YVXG2GNW4WN1JFBYXDQR2ZFISKCHZABHDAZJPHU0CQIWQ0L5'
+  ENV['FOURSQUARE_SECRET'] = '4MV04EJX1ZZA53J5PLYZH2S4XZJ25BWM0WAE3CLND51ATY1Q'
 end
